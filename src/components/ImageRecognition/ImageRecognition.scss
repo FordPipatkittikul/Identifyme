@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 600px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.parallax-effect-glare-scale2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 450px;
+    background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
+    // color: white;
+    border: 5px solid rgb(231, 228, 12);
+    border-radius: 20px;
+    
+  
+    transform-style: preserve-3d;
+  
+    .inner-element2 {
+      width: 0px;
+      height: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    //   background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%);
+      // font-size: 35px;
+      // color: white;
+      transform: translateZ(60px);
+    //   border: 5px solid rgb(215, 236, 21);
+    //   border-radius: 20px;
+    }
+}
