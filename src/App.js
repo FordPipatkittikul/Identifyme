@@ -101,7 +101,7 @@ class App extends Component {
     this.setState({imageUrl: this.state.input}); // set imageUrl to whatever input is
 
     //updating rank
-    fetch("http://localhost:3000/image",{
+    fetch("https://face-detection-server-j7n2.onrender.com/image",{
         method: "put",
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify({
@@ -116,7 +116,7 @@ class App extends Component {
 
 
 
-    fetch("http://localhost:3000/facedetection",{
+    fetch("https://face-detection-server-j7n2.onrender.com/facedetection",{
       method: "post",
       headers: {"Content-Type": "application/json"},
       body: JSON.stringify({
@@ -147,7 +147,7 @@ class App extends Component {
     this.setState({imageUrl2: this.state.input2}); // set imageUrl to whatever input is
 
     // update rank
-    fetch("http://localhost:3000/image",{
+    fetch("https://face-detection-server-j7n2.onrender.com/image",{
       method: "put",
       headers: {"Content-Type": "application/json"},
       body: JSON.stringify({
@@ -160,7 +160,7 @@ class App extends Component {
     })
     
 
-    fetch("http://localhost:3000/imagerecognition",{
+    fetch("https://face-detection-server-j7n2.onrender.com/imagerecognition",{
       method: "post",
       headers: {"Content-Type": "application/json"},
       body: JSON.stringify({
