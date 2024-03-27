@@ -1,4 +1,4 @@
-# Identify Me
+# Identify me
 
 ## link for website
 link: https://fordpipatkittikul.github.io/face-detection/
