@@ -59,7 +59,7 @@ email text UNIQUE NOT NULL
 2) command: `npm start` for both repo.
 
 
-## Helpful website, tools, npm package
+## Helpful website, tools and npm package
 
 **How to deploy react app on github pages**: https://create-react-app.dev/docs/deployment/#github-pages
 
