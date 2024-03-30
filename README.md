@@ -31,7 +31,7 @@ file. `database.js` is where I connect to render's database.
 
 **Databse** is postseqerl which is relational database. I have two tables for my database which is **login** and **users**. 
 
-**all `users` column and their data type**
+**All `users` column and their data type**
 
 ID serial PRIMARY KEY
 
@@ -43,7 +43,7 @@ entries BIGINT DEFAULT 0
 
 joined TIMESTAMP NOT NULL
 
-**all `login` column and their data type**
+**All `login` column and their data type**
 
 ID serial PRIMARY KEY 
 
