@@ -1,7 +1,7 @@
 # Identifyme
 
 ## link for website
-link: https://fordpipatkittikul.github.io/face-detection/
+link: https://fordpipatkittikul.github.io/Identifyme/
 
 ## Overview
 Identifyme is a full-stack web application that allows user to input imageURL and it will locate face location & show top 4 recognition of that image. It will increment your rank each time you input image so Let's go!!!!.
