@@ -4,7 +4,7 @@
 link: https://fordpipatkittikul.github.io/Identifyme/
 
 ## Overview
-Identifyme is a full-stack web application that allows user to input imageURL and it will locate face location & show top 4 recognition of that image. It will increment your rank each time you input image so Let's go!!!!.
+Identifyme is a full-stack web application that allows user to input imageURL and it will locate face location & show top 4 recognition of that image. It will increment your rank each time you insert image.
 face-detection frontend handles Imagelink, calculate face location, display top 4 recognition of image with a clean User Interface and API integration with the backend.
 Data that used to calculate face location & top 4 recognition is done in the backend is being done by using **clarifai api** [face detection model](https://clarifai.com/clarifai/main/models/face-detection) and [general image recognition](https://clarifai.com/clarifai/main/models/general-image-recognition). **Big thanks to clarifai api**.
 
@@ -16,6 +16,13 @@ Data that used to calculate face location & top 4 recognition is done in the bac
 
 **Date expires for render's database: (06/25/2024)**
 
+## DEMO
+userPage :
+![Screenshot (86)](https://github.com/FordPipatkittikul/Identifyme/assets/121902625/d9825684-5793-40c6-9186-d46d1d258935)
+![Screenshot (87)](https://github.com/FordPipatkittikul/Identifyme/assets/121902625/c3c81122-961d-4e1f-b955-159847f8063b)
+Signin&Register Page:
+![Screenshot (88)](https://github.com/FordPipatkittikul/Identifyme/assets/121902625/46295409-1b58-4057-a2e6-acdceb36cf95)
+![Screenshot (89)](https://github.com/FordPipatkittikul/Identifyme/assets/121902625/54b28f2e-0fba-4338-86ab-562279ec4f14)
 ## Tech stack
 Front-end: React.js
 
